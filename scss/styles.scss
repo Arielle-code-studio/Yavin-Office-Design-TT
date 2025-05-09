@@ -43,6 +43,12 @@
   width: 500px;
  }
 
+  .details-2 .decoration-star {
+  right: -200px;
+  width: 500px;
+ }
+
+//  Media Queires
 
  @media(max-width:992px) {
   .xl-text {
@@ -72,6 +78,11 @@
  .header .image-container {
   margin-top: 30px;
  }
+
+ .services .col-md-4 {
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+ }
  }
 
  @media(max-width:576px) {
@@ -82,6 +93,14 @@
  .header .decoration-star-2 {
   right: -100px;
   width: 250px;
+ }
+
+ .details-2 {
+  margin-top: 20px !important;
+ }
+
+ .details-2 .decoration-star {
+  top: 300px;
  }
 
  }
