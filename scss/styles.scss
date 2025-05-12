@@ -122,6 +122,12 @@
  }
  }
 
+ @media(max-width:768px) {
+   .card {
+  margin-bottom: 10px;
+ }
+ }
+ 
  @media(max-width:576px) {
   .header .decoration-star {
   left: -100px;
@@ -140,4 +146,7 @@
   top: 300px;
  }
 
+ .card {
+  margin-bottom: 10px;
+ }
  }
